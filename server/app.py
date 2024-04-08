@@ -37,7 +37,7 @@ def math(num1, num2, operation):
     elif operation == '%':
         return str(num1 % num2)
 
-    return 'Operation not recognized. Please use one of the following: + - * div %'
+    return 'Error'
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
